@@ -1,0 +1,33 @@
+.counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 50px;
+}
+
+.counter .count {
+  line-height: 2;
+  margin: 10px 40px;
+  text-align: center;
+}
+
+.counter .count h3 {
+  color: var(--large-orange);
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.counter .count p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=AboutCounter.css.map */

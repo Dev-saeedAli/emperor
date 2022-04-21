@@ -1,0 +1,99 @@
+.features-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    
+    @media screen  and(max-width: 786px){
+        text-align: center;
+    }
+    
+    .feature-card{
+        // margin: 0px 30px;
+
+        h3{
+            font-size: .7rem;
+
+        }
+        h4{
+            margin-top: 10px;
+            font-size: 1.6rem;
+            font-size: bolder;
+        }
+        p{
+            line-height: 1.4;
+            font-size: .9rem;
+            margin: 20px 0px;
+        }
+        
+        .extras{
+            background: var(--lightest-orange);
+            color: black;
+            padding: 10px;
+            
+            .extra-features{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                
+                svg{
+                    margin: 5px 20px;
+                    font-size: 1.5rem;
+                }
+                
+                h4{
+                    font-size: 1rem;
+                    
+                }
+            }
+            p{
+                font-size: .9rem;
+                // text-align: center;
+                padding: 0px 20px;
+
+                @media screen and (max-width: 768px) {
+                    text-align: left;
+                }
+            }
+        }
+        .extras2{
+           margin: 20px 0px;
+           line-height: 2;
+
+            .extra-features{
+                display: flex;
+                flex-wrap:wrap ;
+                align-items:center;
+
+                @media screen and (max-width: 768px) {
+                  justify-content: left;
+                }
+                
+                svg{
+                    margin: 5px 20px;
+                    font-size: 1.5rem;
+                }
+                
+                h4{
+                    font-size: 1rem;
+                }
+            }
+        }
+            
+    }
+
+    .features-card-2{
+        width: 26%;
+
+        @media screen and (max-width: 810px) {
+            display: none;
+            
+        }
+
+        img{
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+}

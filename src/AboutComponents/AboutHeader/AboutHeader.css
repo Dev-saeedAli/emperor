@@ -1,0 +1,96 @@
+.about-container {
+  padding-top: 85px;
+}
+
+@media screen and (max-width: 620px) {
+  .about-container {
+    padding-top: 120px;
+  }
+}
+
+.about-container .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: var(--large-orange);
+  color: white;
+  min-height: 30vh;
+  padding: 20px 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.about-container .about .about-info {
+  text-align: center;
+}
+
+.about-container .about .about-info svg {
+  width: 60px;
+  font-size: 1.2rem;
+  background: #ffab39;
+  margin: 0px 5px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  color: white;
+}
+
+.about-container .about .about-info svg:hover {
+  background: #ffb956;
+}
+
+.about-container .about .about-info h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+
+.about-container .about .about-info p {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.about-container .about .about-info p svg {
+  position: relative;
+  top: 5px;
+  -webkit-columns: white;
+          columns: white;
+}
+
+.about-container .about-description p {
+  line-height: 1.9;
+  text-shadow: 1px 1px 1px #6c6c6c;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 900px) {
+  .about-container .about-description p {
+    padding: 30px;
+    text-align: center;
+  }
+}
+
+.about-container .about-image {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.7))), url("../../assets/hero2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../../assets/hero2.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 65vh;
+}
+
+.text-yellow {
+  color: #ffff6f;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+  font-weight: bolder;
+  font-size: 2.2rem;
+}
+/*# sourceMappingURL=AboutHeader.css.map */

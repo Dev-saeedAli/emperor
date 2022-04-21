@@ -1,0 +1,117 @@
+.services-container {
+  padding-top: 76px;
+}
+
+.services-container .service-header {
+  min-height: 40vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: var(--large-orange);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.services-container .service-header h3 {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.services-container .service-header p {
+  font-size: 1rem;
+  line-height: 1.7;
+  padding: 0px 15px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 820px) {
+  .services-container .service-header p {
+    padding: 0px 15px;
+  }
+}
+
+.services-container .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 50vh;
+  position: relative;
+  top: -30px;
+}
+
+@media screen and (max-width: 820px) {
+  .services-container .services {
+    top: 0;
+  }
+}
+
+.services-container .services .service-infos {
+  gap: 0px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 15px;
+  background: #fdfdfd;
+}
+
+.services-container .services .service-infos .service-image {
+  width: 250px;
+}
+
+.services-container .services .service-infos .service-image img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.services-container .services .service-infos .service-description {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .services-container .services .service-infos .service-description {
+    padding: 35px;
+    background: var(--lightest-orange);
+    border-top-left-radius: -40px;
+    border-top-right-radius: -40px;
+  }
+}
+
+.services-container .services .service-infos .service-description h4 {
+  line-height: 1.2;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.services-container .services .service-infos .service-description p {
+  line-height: 1.8;
+  font-size: .7rem;
+}
+/*# sourceMappingURL=ServicesHero.css.map */

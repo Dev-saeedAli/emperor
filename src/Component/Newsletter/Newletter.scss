@@ -1,0 +1,75 @@
+.newsletter-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px auto;
+    background: var(--large-orange);
+    color: white;
+    padding: 40px 5px;
+
+    @media screen and (max-width: 698px) {
+        text-align: center;
+    }
+
+    .newsletter-info{
+        margin-right: 70px;
+
+        @media screen and (max-width: 698px) {
+           margin: 50px auto;
+        }
+        h3{
+            font-size: 1.4rem;
+            text-transform: uppercase;
+        }
+        p{
+            margin: 20px 0px;
+            font-size: .8rem;
+        }
+
+        form{
+
+            input{
+                // position: relative !important;
+                padding: 5px 50px;
+                outline: none;
+                border: none;
+                text-align: left;
+                transition: all .3s ease;
+
+                &:focus{
+                    font-size: .7rem;
+                    border-bottom: 2px solid rgb(108, 50, 0)
+                }
+
+            }
+            svg{
+                position: relative;
+                left: -35px;
+                font-size: 1.2rem;
+                top: 5px;
+                color: var(--large-orange);
+                pointer-events: none;
+            }
+        }
+        .cta{
+            outline: none;
+            border: none;
+            background: var(--medium-orange);
+            color: white;
+            padding: 5px 10px;
+        }
+    }
+    .newletter-offer{
+        padding: 30px;
+       background: #ffab39;
+       border-radius: 20px;
+        
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: .9rem;
+            margin: 20px 0px;
+        }
+    }
+}

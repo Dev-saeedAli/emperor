@@ -1,0 +1,51 @@
+.service-container {
+  padding: 7rem 14rem;
+  text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  .service-container {
+    padding: 7rem 1rem;
+  }
+}
+
+.service-container h3 {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin: 30px 0px;
+}
+
+.service-container h2 {
+  font-size: 1.7rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #383838;
+  margin-bottom: 4rem;
+}
+
+.service-container .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minMax(12rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minMax(12rem, 1fr));
+  gap: 40px;
+}
+
+.service-container .cards svg {
+  font-size: 4rem;
+  color: white;
+  background: radial-gradient(circle, #f431c3 70%, #e2ff3b 100%);
+  border-radius: 10px;
+}
+
+.service-container .cards h2 {
+  margin: 10px 0px;
+  font-size: 1rem;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.service-container .cards p {
+  font-size: .8rem;
+}
+/*# sourceMappingURL=Service.css.map */

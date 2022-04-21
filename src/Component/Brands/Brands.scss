@@ -1,0 +1,48 @@
+.brand-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px;
+    
+    h1{
+        font-size: 1.4rem;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+        margin: 60px auto;
+        letter-spacing: 1.4px;
+        text-transform: upp;
+    }
+    
+    .brands{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    
+        .brand-logo{
+            width: 70px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            width: 100px;
+            padding: 5px 5px;
+            cursor: pointer;
+            transition: box-shadow .3s ease-in-out;
+
+            &:hover{
+                box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+            }
+
+            &:last-child{
+                width: 60px;
+            }
+
+            img{
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+  
+}

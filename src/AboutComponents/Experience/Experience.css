@@ -1,0 +1,58 @@
+.experience-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 10px 10px;
+  background: whitesmoke;
+}
+
+.experience-container .cards-image {
+  margin: 20px 30px;
+  width: 20%;
+  position: relative;
+}
+
+@media screen and (max-width: 820px) {
+  .experience-container .cards-image {
+    width: 40%;
+  }
+}
+
+.experience-container .cards-image img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.experience-container .card-info h4 {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.experience-container .card-info h2 {
+  margin: 20px 0px;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bolder;
+}
+
+.experience-container .card-info h2 span {
+  color: var(--large-orange);
+}
+
+.experience-container .card-info p {
+  line-height: 1.7;
+  font-size: .9rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=Experience.css.map */

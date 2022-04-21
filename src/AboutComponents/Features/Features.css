@@ -1,0 +1,123 @@
+.features-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 30px 20px;
+}
+
+@media screen and (max-width: 786px) {
+  .features-container {
+    text-align: center;
+  }
+}
+
+.features-container .feature-card h3 {
+  font-size: .7rem;
+}
+
+.features-container .feature-card h4 {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-size: bolder;
+}
+
+.features-container .feature-card p {
+  line-height: 1.4;
+  font-size: .9rem;
+  margin: 20px 0px;
+}
+
+.features-container .feature-card .extras {
+  background: var(--lightest-orange);
+  color: black;
+  padding: 10px;
+}
+
+.features-container .feature-card .extras .extra-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.features-container .feature-card .extras .extra-features svg {
+  margin: 5px 20px;
+  font-size: 1.5rem;
+}
+
+.features-container .feature-card .extras .extra-features h4 {
+  font-size: 1rem;
+}
+
+.features-container .feature-card .extras p {
+  font-size: .9rem;
+  padding: 0px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .features-container .feature-card .extras p {
+    text-align: left;
+  }
+}
+
+.features-container .feature-card .extras2 {
+  margin: 20px 0px;
+  line-height: 2;
+}
+
+.features-container .feature-card .extras2 .extra-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .features-container .feature-card .extras2 .extra-features {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
+.features-container .feature-card .extras2 .extra-features svg {
+  margin: 5px 20px;
+  font-size: 1.5rem;
+}
+
+.features-container .feature-card .extras2 .extra-features h4 {
+  font-size: 1rem;
+}
+
+.features-container .features-card-2 {
+  width: 26%;
+}
+
+@media screen and (max-width: 810px) {
+  .features-container .features-card-2 {
+    display: none;
+  }
+}
+
+.features-container .features-card-2 img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Features.css.map */

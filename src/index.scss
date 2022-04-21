@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter&family=Josefin+Sans&family=Londrina+Shadow&family=Montserrat&family=Open+Sans&family=Poppins:ital@0;1&family=Public+Sans:wght@400;500&display=swap');
+body, html{
+  overflow-x: hidden;
+//   background: var(--medium-orange);
+scroll-behavior: smooth;
+}
+
+// basic styles
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --lightest-orange: #fff6eb;
+    --light-orange : #f6cf98;
+    --medium-orange : #ffc880;
+    --large-orange : #FE9A13;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
