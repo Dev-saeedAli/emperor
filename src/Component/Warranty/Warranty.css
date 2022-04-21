@@ -64,6 +64,13 @@
   line-height: 1.8;
 }
 
+@media screen and (max-width: 500px) {
+  .warranty-section .warranty-container .warranty-wrapper .warranty-info .warranty-description {
+    max: width 90%;
+    padding: 0px 0.3rem;
+  }
+}
+
 .warranty-section .warranty-container .warranty-image {
   width: 26%;
   position: relative;

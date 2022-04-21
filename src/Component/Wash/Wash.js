@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../../src/Component/Wash/Wash.css"
-import WashImage from "../../assets/experience.jpg"
+import WashImage from "../../assets/wash-description.jpg"
 import TechnicianImage from "../../assets/price_info2.jpg"
 import {Link} from "react-router-dom"
 

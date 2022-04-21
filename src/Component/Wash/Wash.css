@@ -64,9 +64,9 @@
 
 @media screen and (max-width: 700px) {
   .wash-container .wash-info .wash-description {
-    max-width: 80%;
+    max-width: 90%;
     background: var(--lightest-orange);
-    padding: 0px 1rem;
+    padding: 0px 0.4rem;
   }
 }
 

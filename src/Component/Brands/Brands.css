@@ -34,7 +34,6 @@
 }
 
 .brand-container .brands .brand-logo {
-  width: 70px;
   border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,6 +48,12 @@
   transition: -webkit-box-shadow .3s ease-in-out;
   transition: box-shadow .3s ease-in-out;
   transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+  .brand-container .brands .brand-logo {
+    width: 115px;
+  }
 }
 
 .brand-container .brands .brand-logo:hover {
