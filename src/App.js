@@ -17,8 +17,8 @@ function App() {
               <Router>
                 <Header/>
                   <Routes>
-                    <Route path='/:type' exact element={<HomePage/>}/>
-                    <Route path="/about" exact element={<About/>}/>
+                    <Route path="/" element={<HomePage/>}/>
+                    <Route path="/about" element={<About/>}/>
                     <Route path="/services" element={<Services/>}/>
                     <Route path="/book" element={<Book/>}/>
                     <Route path="/price" element={<Pricing/>}/>

@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './Component/Header/Header'
 import Service from './Component/Service/Service'
 import Hero from './Component/Hero/Hero'
 import Warranty from './Component/Warranty/Warranty'
@@ -23,3 +22,4 @@ function HomePage() {
 }
 
 export default HomePage
+// git remote set-url origin git@your.git.repo.example.com:user/repository2.git

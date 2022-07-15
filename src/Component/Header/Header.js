@@ -18,7 +18,7 @@ function Header() {
            </div>
            <nav>
                <ul className={state ? "active" : ""}>
-                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"/home"}>Home</Link></li>
+                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"/"}>Home</Link></li>
                    <li onClick={()=> setState(prevState => !prevState)}><Link to={"/about"}>About</Link></li>
                    <li onClick={()=> setState(prevState => !prevState)}><Link to={"/services"}>Services</Link></li>
                    <li onClick={()=> setState(prevState => !prevState)}><Link to={"/book"}>Book Wash</Link></li>
