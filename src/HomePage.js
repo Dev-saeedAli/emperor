@@ -22,4 +22,3 @@ function HomePage() {
 }
 
 export default HomePage
-// git remote set-url origin git@your.git.repo.example.com:user/repository2.git

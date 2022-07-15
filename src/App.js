@@ -22,7 +22,7 @@ function App() {
                     <Route path="emperor/book" element={<Book/>}/>
                     <Route path="emperor/price" element={<Pricing/>}/>
                     <Route path="emperor/gallery" element={<Gallery/>}/>
-                    <Route path="/:type" element={<HomePage/>}/>
+                    <Route path="emperor/" element={<HomePage/>}/>
                   </Routes>
                 <Footer/>
               </Router>
