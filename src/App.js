@@ -17,7 +17,7 @@ function App() {
               <Router>
                 <Header/>
                   <Routes>
-                    <Route path="/emperor" element={<HomePage/>}/>
+                    <Route path="/:type" element={<HomePage/>}/>
                     <Route path="/about" element={<About/>}/>
                     <Route path="/services" element={<Services/>}/>
                     <Route path="/book" element={<Book/>}/>
