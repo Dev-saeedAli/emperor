@@ -18,12 +18,12 @@ function Header() {
            </div>
            <nav>
                <ul className={state ? "active" : ""}>
-                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"/"}>Home</Link></li>
-                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"/about"}>About</Link></li>
-                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"/services"}>Services</Link></li>
-                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"/book"}>Book Wash</Link></li>
-                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"/price"}>Prices</Link></li>
-                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"/gallery"}>Gallery</Link></li>
+                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"emperor/"}>Home</Link></li>
+                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"emperor/about"}>About</Link></li>
+                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"emperor/services"}>Services</Link></li>
+                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"emperor/book"}>Book Wash</Link></li>
+                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"emperor/price"}>Prices</Link></li>
+                   <li onClick={()=> setState(prevState => !prevState)}><Link to={"emperor/gallery"}>Gallery</Link></li>
                </ul>
            </nav>
                 {state ?  <AiOutlineClose className='cross' onClick={()=> setState(prevState => !prevState)}/> : <GiHamburgerMenu className='burger' onClick={()=> setState(prevState => !prevState)}/>}

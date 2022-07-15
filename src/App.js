@@ -17,12 +17,12 @@ function App() {
               <Router>
                 <Header/>
                   <Routes>
+                    <Route path="emperor/about" element={<About/>}/>
+                    <Route path="emperor/services" element={<Services/>}/>
+                    <Route path="emperor/book" element={<Book/>}/>
+                    <Route path="emperor/price" element={<Pricing/>}/>
+                    <Route path="emperor/gallery" element={<Gallery/>}/>
                     <Route path="/:type" element={<HomePage/>}/>
-                    <Route path="/about" element={<About/>}/>
-                    <Route path="/services" element={<Services/>}/>
-                    <Route path="/book" element={<Book/>}/>
-                    <Route path="/price" element={<Pricing/>}/>
-                    <Route path="/gallery" element={<Gallery/>}/>
                   </Routes>
                 <Footer/>
               </Router>
